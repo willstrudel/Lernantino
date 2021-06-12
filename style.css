@@ -2,34 +2,99 @@ body {
     background-color: rgb(228, 228, 255);
 }
 
+/** Header */
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
+    display: flex;
     color: rgb(152, 214, 214);
     font-size: 220%;
-    display: flex;
-    /* justify-content: center; */
-    vertical-align:text-bottom;
-    padding-bottom: 4%;
+    justify-content:space-between;
+    padding-bottom: 10px;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(122, 122, 122);
+    height: 50px;
+    background-color: rgb(83, 83, 83);
 
 }
 
-.nav {
+/** Header Title */
+.title {
+    background-color: rgb(123, 184, 184);
+    text-align: right;
+    vertical-align: middle;
+    margin-top: 10px;
+    width: 200px;
+    right: 0;
+    color: rgb(83, 83, 83)
+}
+
+.title p {
+    background-color: maroon;
+}
+
+/** Nav Bar */
+span.nav {
+    right: 0;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+ul.nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(152, 214, 214);
-    font-size: 100%;
-    position: relative;
+    font-size: 14pt;
+    font-weight: bold;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+}
 
 li {
     display: inline;
-    float: right;
+    padding-left: 20px;
 }
+
+/** Image Bar */
+image-bar {
+    /**background-image();*/
+}
+
+image-bar .subtitle {
+    
+}
+
+
+
+/** Main Sections */
+div.section {
+    margin-top: 75px;
+    margin-left: 100px;
+    width: 100%;
+    display: inline-block;
+    color: rgb(83, 83, 83);;
+    margin-right: 20px;
+}
+
+div.section .heading {
+    float: left;
+    font-family: 'Arial';
+    font-size: 50pt;
+    text-align: right;
+    padding-right: 10px;
+    border-right: rgb(83, 83, 83) solid 8px;
+    border-radius: 5px;
+    width: 185px;
+    padding-right: 15px;
+}
+
+div.section .content {
+    background-color: lightgreen;
+    word-wrap: break-word;
+    padding-left: 250px;
+    width: 55%;
+    
+}
+
+
 
