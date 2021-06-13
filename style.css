@@ -34,6 +34,7 @@ header {
 .title {
     background-color: rgb(195, 255, 255);
     text-align: right;
+    font-size: 38px;
     padding-right: 10px;
     vertical-align: middle;
     margin-top: 25px;
@@ -55,7 +56,6 @@ ul.nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(195, 255, 255);
     font-size: 14pt;
-    font-weight: bold;
     list-style-type: none;
     margin-top: 30px;
 }
@@ -82,7 +82,7 @@ li {
     font-size: 30px;
     top: 245px;
     bottom: 8px;
-    right: 40px;
+    right: 60px;
     height: 40px;
     width: 150px;
     color: rgb(56, 56, 56)
@@ -127,7 +127,7 @@ div.section .work-heading {
     text-align: right;
     padding-right: 10px;
     border-right: rgb(56, 56, 56) solid 4px;
-    height: 1600px;
+    height: 940px;
     width: 185px;
     padding-right: 15px;
 }
@@ -140,10 +140,48 @@ div.section .work-heading {
     margin: 0px;
 }
 
-.work-image {
-    position: absolute;
-    width: 688px;
-    height: 550px;
-    left: 250px;
+.work-image { 
+
+    position: relative;
+    bottom: 939px;
+    left: 246px;
+    padding: 0px 0px;
+    margin: 5px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 826px;
+    height: 539px;
     border: 7px solid rgb(123, 179, 179);
 }
+    /* position: absolute; 
+    object-fit: cover;
+    width: 688px;
+    height: 500px;
+    left: 250px;
+    border: 7px solid rgb(123, 179, 179); /*
+}
+
+/* Grid Items/Images */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 4px;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 8px 4px;
+  }
+  
+  .column img {
+    position: relative;
+    bottom: 941px;
+    left: 338px;
+    padding: 0px 0px;
+    margin: 5px;
+    object-fit: cover;
+    width: 400px;
+    height: 150px;
+    border: 7px solid rgb(123, 179, 179);
+  }
