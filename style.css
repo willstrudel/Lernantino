@@ -26,9 +26,9 @@ header {
     width: 100%;
     height: 70px;
     background-color: rgb(56, 56, 56);
-    
-
 }
+
+
 
 /** Header Title */
 .title {
@@ -50,7 +50,10 @@ span.nav {
     width: 600px;
     display: flex;
     justify-content: center;
+    text-decoration: underline;
+    
 }
+
 
 ul.nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,6 +61,7 @@ ul.nav {
     font-size: 14pt;
     list-style-type: none;
     margin-top: 30px;
+
 }
 
 li {
@@ -70,11 +74,10 @@ li {
     width: 2000px;
     height: 300px;
     overflow: hidden;
-
 }
 
 /* image-bar .subtitle   */
-.subtitle {
+.header-subtitle {
     background-color: rgb(195, 255, 255);
     position: absolute;
     text-align: center;
@@ -117,6 +120,7 @@ div.section .content {
     word-wrap: break-word;
     padding-left: 250px;
     width: 55%;
+    font-size: 18px;
 
 }
 
@@ -153,17 +157,82 @@ div.section .work-heading {
     height: 539px;
     border: 7px solid rgb(123, 179, 179);
 }
-    /* position: absolute; 
-    object-fit: cover;
-    width: 688px;
-    height: 500px;
-    left: 250px;
-    border: 7px solid rgb(123, 179, 179); /*
+
+/* Grid Images subtitles */
+.work-subtitle {
+    background-color: rgb(123, 179, 179);
+    position: absolute;
+    text-align: center;
+    padding-left: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    top: 470px;
+    bottom: 8px;
+    left: 255px;
+    height: 40px;
+    width: 150px;
+    color: rgb(56, 56, 56)
 }
 
-/* Grid Items/Images */
+@media screen and (max-width: 992px) {
+    .work-wrapper{
+        
+    }
 
+    .work-image-box {
+        position: relative;
+        height: 100px;
+        width: 100px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    
+    .work-image { 
+    
+        position: relative;
+        bottom: 939px;
+        left: 246px;
+        padding: 0px 0px;
+        margin: 5px;
+        object-fit: cover;
+        overflow: hidden;
+        width: 400px;
+        height: 300px;
+        border: 7px solid rgb(123, 179, 179);
+    }
+    
+    .work-subtitle {
+        background-color: rgb(123, 179, 179);
+        position: absolute;
+        z-index: 3 !important;
+        text-align: center;
+        padding-left: 2px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        top: 225px;
+        bottom: 8px;
+        left: 255px;
+        height: 40px;
+        width: 150px;
+        color: rgb(56, 56, 56)
+    }
+    
+    .work-subtitle h1 {
+    }
+    .work-subtitle p {
+        display: flex;
+        padding-left: 22px;
+        font-size: 12pt;
+    }
+}
+
+
+
+
+/* Grid Items/Images */
 .row {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     padding: 8px 4px;
@@ -185,3 +254,50 @@ div.section .work-heading {
     height: 150px;
     border: 7px solid rgb(123, 179, 179);
   }
+
+
+
+p {
+    font-size: 18px;
+    left: 2px;
+    background-color: rgb(123, 179, 179);
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+} 
+
+
+.led-subtitle {
+    background-color: rgb(123, 179, 179);
+    position: absolute;
+    min-height: 50px;
+    text-align: left;
+    padding-left: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    bottom: 1175px;
+    left: 355px;
+    color: rgb(56, 56, 56)
+}
+
+.calculator-subtitle {
+    background-color: rgb(123, 179, 179);
+    position: absolute;
+    min-height: 50px;
+    text-align: left;
+    padding-left: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    top: 1550px;
+    bottom: 8px;
+    left: 355px;
+    height: 40px;
+    width: 180px;
+    color: rgb(56, 56, 56)
+}
+
+@media screen and (max-width: 992px) {
+    .led
+}
+
+
