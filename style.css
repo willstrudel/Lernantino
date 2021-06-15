@@ -10,6 +10,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /** Header */
@@ -29,18 +30,31 @@ header {
 }
 
 
-
 /** Header Title */
 .title {
     background-color: rgb(195, 255, 255);
-    text-align: right;
-    font-size: 38px;
+    text-align: center;
+    font-size: 30px;
     padding-right: 10px;
     vertical-align: middle;
     margin-top: 25px;
     width: 200px;
     right: 0px;
     color: rgb(56, 56, 56)
+}
+
+.headshot {
+    position: relative;
+    display: flex;
+    border: 5px solid rgb(123, 179, 179);
+    padding-right: 0px;
+    right: 198px;
+    height: 260px;
+    width: 180px;
+    padding-left: 0px;
+    justify-content: right;
+    float: right;
+    
 }
 
 
@@ -218,8 +232,7 @@ div.section .work-heading {
         color: rgb(56, 56, 56)
     }
     
-    .work-subtitle h1 {
-    }
+    
     .work-subtitle p {
         display: flex;
         padding-left: 22px;
@@ -259,25 +272,40 @@ div.section .work-heading {
 
 p {
     font-size: 18px;
-    left: 2px;
+    left: 0px;
     background-color: rgb(123, 179, 179);
     padding-top: 8px;
     padding-bottom: 0px;
     padding-right: 40px;
+    padding-left: 0px;
 } 
 
 
 .led-subtitle {
     background-color: rgb(123, 179, 179);
     position: absolute;
-    min-height: 50px;
+    z-index: 3 !important;
     text-align: left;
-    padding-left: 2px;
+    padding-left: 4px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
-    bottom: 1175px;
-    left: 355px;
+    bottom: 1197px;
+    left: 358px;
+    height: 40px;
+    width: 120px;
     color: rgb(56, 56, 56)
+}
+
+.node-p {
+    position: absolute;
+    font-size: 18px;
+    left: 0px;
+    width: 108px;
+    background-color: rgb(123, 179, 179);
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-right: 16px;
+    padding-left: 0px;
 }
 
 .calculator-subtitle {
@@ -288,16 +316,54 @@ p {
     padding-left: 2px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
-    top: 1550px;
-    bottom: 8px;
+    bottom: 995px;
     left: 355px;
     height: 40px;
     width: 180px;
     color: rgb(56, 56, 56)
 }
 
-@media screen and (max-width: 992px) {
-    .led
+.puzzle-subtitle {
+    background-color: rgb(123, 179, 179);
+    z-index: 3;
+    position: absolute;
+    min-height: 50px;
+    text-align: left;
+    padding-left: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    bottom: 1185px;
+    left: 782px;
+    height: 40px;
+    width: 180px;
+    color: rgb(56, 56, 56)
 }
 
+.running-subtitle {
+    background-color: rgb(123, 179, 179);
+    z-index: 3;
+    position: absolute;
+    min-height: 50px;
+    text-align: left;
+    padding-left: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    bottom: 993px;
+    left: 784px;
+    height: 40px;
+    width: 144px;
+    color: rgb(56, 56, 56)
+}
+
+.running-p {
+    position: absolute;
+    font-size: 18px;
+    left: 0px;
+    width: 132px;
+    background-color: rgb(123, 179, 179);
+    padding-top: 6px;
+    padding-bottom: 2px;
+    padding-right: 16px;
+    padding-left: 4px;
+}
 
