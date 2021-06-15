@@ -2,7 +2,7 @@
 Homework 2 Assignment
 
 ![Lernantino](C:\Users\wills\Pictures\screencapture-file-C-Users-wills-Desktop-homework-2-Lernantino-index-html-2021-06-15-19_33_26.png)
-
+Format: ![Website image]
 
 * Application deployed at live URL.
 
