@@ -1,12 +1,8 @@
 # Lernantino
 Homework 2 Assignment
 
+![Lernantino](C:\Users\wills\Pictures\screencapture-file-C-Users-wills-Desktop-homework-2-Lernantino-index-html-2021-06-15-19_33_26.png)
 
-<img
-src=“C:\Users\wills\Pictures\screencapture-file-C-Users-wills-Desktop-homework-2-Lernantino-index-html-2021-06-15-19_33_26.png”
-raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”>
 
 * Application deployed at live URL.
 
