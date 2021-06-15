@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     padding-bottom: 10px;
     top: 0;
-    left: 0;
+    left: 0px;
     width: 100%;
     height: 70px;
     background-color: rgb(56, 56, 56);
@@ -64,8 +64,12 @@ span.nav {
     width: 600px;
     display: flex;
     justify-content: center;
-    text-decoration: underline;
-    
+    text-decoration: underline;   
+}
+
+span.nav a:visited {
+    text-decoration: none;
+    color: rgb(195, 255, 255);
 }
 
 
@@ -99,7 +103,7 @@ li {
     font-size: 30px;
     top: 245px;
     bottom: 8px;
-    right: 60px;
+    right: 10px;
     height: 40px;
     width: 150px;
     color: rgb(56, 56, 56)
@@ -159,7 +163,6 @@ div.section .work-heading {
 }
 
 .work-image { 
-
     position: relative;
     bottom: 939px;
     left: 246px;
@@ -238,6 +241,20 @@ div.section .work-heading {
         padding-left: 22px;
         font-size: 12pt;
     }
+}
+
+.contact-me {
+    position: relative;
+    font-family: 'Arial';
+    font-size: 50pt;
+    text-align: right;
+    padding-right: 10px;
+    border-right: rgb(56, 56, 56) solid 4px;
+    height: 150px;
+    width: 185px;
+    right: 1334px;
+    bottom: 1000px;
+    padding-right: 15px;
 }
 
 
@@ -367,3 +384,23 @@ p {
     padding-left: 4px;
 }
 
+.bottom-nav {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+    top: 1760px; 
+    left: 410px;
+    width: 600px;
+    display: inline; 
+    text-decoration: underline;
+    
+}
+
+.bottom-nav ul li a:visited {
+    text-decoration: none !important;
+    color: rgb(56, 56, 56);
+}
+
+a[href^="mailto"] { 
+    color:rgb(56, 56, 56);
+}
