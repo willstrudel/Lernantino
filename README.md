@@ -2,7 +2,7 @@
 Homework 2 Assignment
 
 
-![screenshot](./assets/screencapture-website.png)
+![image](Lernantino\assets\screencapture-website.png)
 
 * Application deployed at live URL.
 
