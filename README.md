@@ -1,6 +1,8 @@
 # Lernantino
 Homework 2 Assignment
 
+https://willstrudel.github.io/Lernantino/#resume
+
 
 ![image](Lernantino\assets\screencapture-website.png)
 
